@@ -8,7 +8,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <div>
             <div className="flex items-center gap-2">
-              <div className="h-8 w-8 rounded-md bg-[#fbc736]"></div>
+              {/* <div className="h-8 w-8 rounded-md bg-[#fbc736]"></div> */}
+              <img src="https://teveer.tech/images-folder/teveertech_nobg.png" alt="Teveer Tech" width={50} height={50} />
               <span className="text-lg font-bold">Teveer Tech</span>
             </div>
             <p className="mt-4 text-sm leading-6 text-gray-300">

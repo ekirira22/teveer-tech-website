@@ -26,7 +26,8 @@ export default function Header() {
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Teveer Tech</span>
             <div className="flex items-center gap-2">
-              <div className="h-10 w-10 rounded-md bg-[#fbc736]"></div>
+              {/* <div className="h-10 w-10 rounded-md"></div> */}
+              <img src="https://teveer.tech/images-folder/teveertech_nobg.png" alt="Teveer Tech" width={50} height={50} />
               <span className="text-xl font-bold text-[#393939]">Teveer Tech</span>
             </div>
           </Link>
@@ -68,7 +69,8 @@ export default function Header() {
             <Link href="/" className="-m-1.5 p-1.5" onClick={() => setMobileMenuOpen(false)}>
               <span className="sr-only">Teveer Tech</span>
               <div className="flex items-center gap-2">
-                <div className="h-8 w-8 rounded-md bg-[#fbc736]"></div>
+                {/* <div className="h-8 w-8 rounded-md bg-[#fbc736]"></div> */}
+                <img src="https://teveer.tech/images-folder/teveertech_nobg.png" alt="Teveer Tech" width={50} height={50} />
                 <span className="text-lg font-bold text-white">Teveer Tech</span>
               </div>
             </Link>

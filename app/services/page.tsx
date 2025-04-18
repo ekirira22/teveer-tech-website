@@ -227,18 +227,18 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-[#393939] py-16">
+      <section className="bg-[#f7dea6] py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Ready to get started?</h2>
-            <p className="mt-6 text-lg leading-8 text-gray-300">
+            <h2 className="text-3xl font-bold tracking-tight text-[#393939] sm:text-4xl">Ready to get started?</h2>
+            <p className="mt-6 text-lg leading-8 text-[#393939]">
               Contact us today to discuss how our services can help your business thrive.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6">
               <Button className="w-full sm:w-auto bg-[#fbc736] text-[#393939] hover:bg-[#fbc736]/90">
                 <Link href="/contact">Contact Us</Link>
               </Button>
-              <Button variant="outline" className="w-full sm:w-auto border-white text-white hover:bg-white/10">
+              <Button variant="outline" className="w-full sm:w-auto border-white text-[#393939] hover:text-gray-50 hover:bg-white/10">
                 <Link href="/case-studies">View Case Studies</Link>
               </Button>
             </div>

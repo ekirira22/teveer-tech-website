@@ -11,7 +11,7 @@ export default function Home() {
       <HeroSection
         title="Empowering Businesses Through Smart, Scalable Tech Solutions"
         subtitle="Turn Tech into a Strategic Advantage"
-        backgroundImage="/placeholder.svg?height=1080&width=1920"
+        backgroundImage="https://kcg.co.ke/images-folder/tech.jpg"
         theme="dark"
         height="large"
       >
@@ -24,7 +24,7 @@ export default function Home() {
           <Button className="bg-[#fbc736] text-[#393939] hover:bg-[#fbc736]/90 transition-all duration-300 transform hover:scale-105">
             <Link href="/contact">Get Started</Link>
           </Button>
-          <Button variant="outline" className="border-white text-white hover:bg-white/10">
+          <Button variant="outline" className="border-white text-[#393939] hover:text-gray-50 hover:bg-white/10">
             <Link href="/services">Our Services</Link>
           </Button>
         </div>
@@ -104,7 +104,7 @@ export default function Home() {
               },
               {
                 title: "Digital Conversion",
-                description: "Transform your analog processes into efficient digital workflows.",
+                description: "Website Creation or Ramp-up, Maintenance and Management",
                 icon: <FileDigit className="h-10 w-10 text-[#74c2e8]" />,
                 href: "/services#digital-conversion",
               },
@@ -136,20 +136,20 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-[#393939] py-16">
+      <section className="bg-[#f7dea6] py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-[#393939] sm:text-4xl">
               Ready to transform your business?
             </h2>
-            <p className="mt-6 text-lg leading-8 text-gray-300">
+            <p className="mt-6 text-lg leading-8 text-[#393939]">
               Let's discuss how Teveer Tech can help you leverage technology to achieve your business goals.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6">
               <Button className="w-full sm:w-auto bg-[#fbc736] text-[#393939] hover:bg-[#fbc736]/90">
                 <Link href="/contact">Contact Us</Link>
               </Button>
-              <Button variant="outline" className="w-full sm:w-auto border-white text-white hover:bg-white/10">
+              <Button variant="outline" className="w-full sm:w-auto border-white text-[#393939] hover:text-gray-50 hover:bg-white/10">
                 <Link href="/case-studies">View Case Studies</Link>
               </Button>
             </div>

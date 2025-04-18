@@ -9,7 +9,7 @@ export default function AboutPage() {
       <HeroSection
         title="About Teveer Tech"
         subtitle="We're a tech consulting firm dedicated to empowering businesses through innovative technology solutions."
-        backgroundImage="/placeholder.svg?height=1080&width=1920"
+        backgroundImage="https://teveer.tech/images-folder/pexels-ante-emmanuel.jpg?height=1080&width=1920"
         theme="dark"
       />
 
@@ -37,7 +37,7 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="https://teveer.tech/images-folder/pexels-sora-shimazaki.jpg?height=600&width=800"
                 alt="Teveer Tech founders"
                 width={800}
                 height={600}
@@ -138,7 +138,7 @@ export default function AboutPage() {
                 name: "Eric Maranga",
                 role: "Co-Founder & CEO",
                 bio: "With over 10 years of experience in software development and business consulting, Eric leads our strategic direction and client relationships.",
-                image: "/placeholder.svg?height=400&width=400",
+                image: "https://teveer.tech/images-folder/ME.jpg?height=400&width=400",
               },
               {
                 name: "Steve Mwangi",
